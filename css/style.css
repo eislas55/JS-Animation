@@ -1,0 +1,11 @@
+background-color: black;
+.head{
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+.body{
+	height: 150px;
+	width: 30px;
+
+}

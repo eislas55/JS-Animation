@@ -1,0 +1,64 @@
+body{
+	background-color:darkgrey;
+}
+.head, .body, .legL, .legR, .armL, .armR{
+	background-color: black;
+	border: solid 2px red;
+}
+.body, .legL, .legR, .armL, .armR{
+	display: inline-block;
+}
+.body, .armR, .armL{
+	border-radius: 20px;
+}
+.armR, .armL, .legR, .legL{
+	position: relative;
+}
+.pedro{
+	position: absolute;
+	.head{
+		height: 70px;
+		width: 70px;
+		border-radius: 50%;
+		margin-left: 35px;
+		overflow: hidden;
+	}
+	.body{
+		height: 150px;
+		width: 100px;
+	}
+	.armR, .armL{
+		height: 120px;
+		width: 17px;
+		margin-bottom: 20px;
+
+	}
+	.legR, .legL{
+		height: 130px;
+		width: 20px;
+	}
+	.legL{
+		margin: 0px 10px 0px 31px;
+	}
+	.legR{
+		margin: 0px 0px 0px 25px;
+	}
+	.face{
+		background-color: transparent;
+		color: white;
+		margin-left: 2px;
+		position: relative;
+		.eyes{ //eyes
+			background-color: white;
+			margin: 19px 10px 0px 10px;
+			height: 5px;
+			width: 5px;
+			display: inline-block;
+		}
+		.nose{
+			background-color: white;
+			height: 5px;
+			width: 5px;
+		}
+	}
+}

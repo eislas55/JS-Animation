@@ -1,0 +1,83 @@
+/* line 1, ../sass/style.scss */
+body {
+  background-color: darkgrey;
+}
+
+/* line 4, ../sass/style.scss */
+.head, .body, .legL, .legR, .armL, .armR {
+  background-color: black;
+  border: solid 2px red;
+}
+
+/* line 8, ../sass/style.scss */
+.body, .legL, .legR, .armL, .armR {
+  display: inline-block;
+}
+
+/* line 11, ../sass/style.scss */
+.body, .armR, .armL {
+  border-radius: 20px;
+}
+
+/* line 14, ../sass/style.scss */
+.armR, .armL, .legR, .legL {
+  position: relative;
+}
+
+/* line 17, ../sass/style.scss */
+.pedro {
+  position: absolute;
+}
+/* line 19, ../sass/style.scss */
+.pedro .head {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 35px;
+  overflow: hidden;
+}
+/* line 26, ../sass/style.scss */
+.pedro .body {
+  height: 150px;
+  width: 100px;
+}
+/* line 30, ../sass/style.scss */
+.pedro .armR, .pedro .armL {
+  height: 120px;
+  width: 17px;
+  margin-bottom: 20px;
+}
+/* line 36, ../sass/style.scss */
+.pedro .legR, .pedro .legL {
+  height: 130px;
+  width: 20px;
+}
+/* line 40, ../sass/style.scss */
+.pedro .legL {
+  margin: 0px 10px 0px 31px;
+}
+/* line 43, ../sass/style.scss */
+.pedro .legR {
+  margin: 0px 0px 0px 25px;
+}
+/* line 46, ../sass/style.scss */
+.pedro .face {
+  background-color: transparent;
+  color: white;
+  margin-left: 2px;
+  position: relative;
+}
+/* line 51, ../sass/style.scss */
+.pedro .face .eyes {
+  background-color: white;
+  margin: 19px 10px 0px 10px;
+  height: 5px;
+  width: 5px;
+  display: inline-block;
+}
+/* line 58, ../sass/style.scss */
+.pedro .face .nose {
+  background-color: white;
+  height: 5px;
+  width: 5px;
+}
